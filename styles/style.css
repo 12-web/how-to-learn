@@ -271,6 +271,7 @@
   min-height: 350px;
   padding: 60px 0 40px;
   background-color: #1f1f1f;
+  display: flex;
 }
 
 .footer__columns {
@@ -278,7 +279,6 @@
   justify-content: space-between;
   margin: 0 auto;
   width: 90%;
-  min-height: 250px;
 }
 
 .footer__column_content_copyright {
