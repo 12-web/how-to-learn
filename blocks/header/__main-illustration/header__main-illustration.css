@@ -4,9 +4,7 @@
   position: absolute;
   right: 0;
   bottom: 0;
-  background-image: url('../../../images/header-image.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: right bottom;
+  object-fit: cover;
+  object-position: right bottom;
   z-index: 0;
 }
