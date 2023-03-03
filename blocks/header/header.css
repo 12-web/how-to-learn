@@ -1,4 +1,6 @@
 .header {
+  max-width: 1600px;
+  margin: 0 auto;
   height: 100vh;
   min-height: 600px;
   max-height: 756px;

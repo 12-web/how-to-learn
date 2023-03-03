@@ -8,3 +8,13 @@
   right: 0;
   z-index: 0;
 }
+
+@media screen and (max-width: 649px) {
+.header__square-pic {
+  height: calc(100vw * .8);
+  width: calc(100vw * .8);
+  top: 25%;
+  transform: translate(0, -50%);
+  }
+}
+

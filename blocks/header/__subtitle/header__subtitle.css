@@ -9,3 +9,9 @@
   left: 64px;
   z-index: 1;
 }
+
+@media screen and (max-width: 649px) {
+  .header__subtitle {
+    left: 24px;
+  }
+}
