@@ -8,3 +8,9 @@
   object-position: right bottom;
   z-index: 0;
 }
+
+@media screen and (max-width: 1023px) {
+  .header__main-illustration {
+    display: none;
+  }
+}

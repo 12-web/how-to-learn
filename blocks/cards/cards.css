@@ -1,8 +1,15 @@
 .cards {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 240px);
+  justify-content: center;
   max-width: 920px;
   padding: 0;
   margin: 0 auto;
   column-gap: 100px;
+}
+
+@media screen and (max-width: 1149px) {
+  .cards {
+    column-gap: 50px;
+  }
 }
