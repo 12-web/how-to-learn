@@ -8,3 +8,21 @@
   margin: 0 auto;
   width: 60%;
 }
+
+@media screen and (max-width: 1023px) {
+  .section-title {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .section-title {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .section-title {
+    width: 90%;
+  }
+}
