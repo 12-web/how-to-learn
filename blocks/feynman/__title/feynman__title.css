@@ -2,8 +2,26 @@
   line-height: 1.15;
   font-size: 120px;
   font-weight: 600;
-  width: 648px;
+  max-width: 648px;
   padding-top: 100px;
   margin: 0 auto;
   text-align: center;
+}
+
+@media screen and (max-width: 1279px) {
+  .feynman__title {
+    font-size: 90px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .feynman__title {
+    font-size: 64px;
+  }
+}
+
+@media screen and (max-width: 474px) {
+  .feynman__title {
+    font-size: 48px;
+  }
 }
